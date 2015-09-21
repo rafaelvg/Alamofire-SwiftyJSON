@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.source   = { :git => "https://github.com/SwiftyJSON/Alamofire-SwiftyJSON.git", :tag => s.version }
   s.source_files = "Source/*.swift"
-  s.dependency 'Alamofire', '1.3'
+  s.dependency 'Alamofire', '~>2.0'
   s.dependency 'SwiftyJSON', '2.2.0'
 end
